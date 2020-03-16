@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\hook">
+      <UniqueIdentifier>{e66adfb6-82c6-4741-9389-26890ab03bfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\hook\hde32">
+      <UniqueIdentifier>{57a81f85-119c-4d85-b999-b407b4b8f7ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\hook\hde32\include">
+      <UniqueIdentifier>{1dcfc8e3-405f-4583-834a-a69012a0b13d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\hook\hde32\src">
+      <UniqueIdentifier>{79af1760-cd91-4bb2-aa31-61a5997e1c19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\hook\xbyak">
+      <UniqueIdentifier>{485c3a89-fdcc-4dc0-a36d-69b8d9228425}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="hook\hde32\src\hde32.cpp">
+      <Filter>Исходные файлы\hook\hde32\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="hook\hook.h">
+      <Filter>Исходные файлы\hook</Filter>
+    </ClInclude>
+    <ClInclude Include="hook\hook_function_traits.hpp">
+      <Filter>Исходные файлы\hook</Filter>
+    </ClInclude>
+    <ClInclude Include="hook\hde32\include\hde32.h">
+      <Filter>Исходные файлы\hook\hde32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="hook\hde32\include\table32.h">
+      <Filter>Исходные файлы\hook\hde32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="hook\xbyak\xbyak.h">
+      <Filter>Исходные файлы\hook\xbyak</Filter>
+    </ClInclude>
+    <ClInclude Include="hook\xbyak\xbyak_bin2hex.h">
+      <Filter>Исходные файлы\hook\xbyak</Filter>
+    </ClInclude>
+    <ClInclude Include="hook\xbyak\xbyak_mnemonic.h">
+      <Filter>Исходные файлы\hook\xbyak</Filter>
+    </ClInclude>
+    <ClInclude Include="hook\xbyak\xbyak_util.h">
+      <Filter>Исходные файлы\hook\xbyak</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
